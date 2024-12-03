@@ -150,6 +150,9 @@
   <data name="btnUploadFile" xml:space="preserve">
     <value>Upload File</value>
   </data>
+  <data name="cbItemAPAC" xml:space="preserve">
+    <value>APAC</value>
+  </data>
   <data name="cbItemEMEA" xml:space="preserve">
     <value>EMEA</value>
     <comment>Do not translate</comment>
@@ -209,6 +212,9 @@
   </data>
   <data name="lblCreateBucketName" xml:space="preserve">
     <value>Enter your bucket name here:</value>
+  </data>
+  <data name="lblForgeCredential" xml:space="preserve">
+    <value>Application Credentials</value>
   </data>
   <data name="lblId" xml:space="preserve">
     <value>ID:</value>
@@ -282,5 +288,8 @@
   </data>
   <data name="tooltipSecret" xml:space="preserve">
     <value>Paste your Application Client Secret here</value>
+  </data>
+  <data name="__unused" xml:space="preserve">
+    <value />
   </data>
 </root>

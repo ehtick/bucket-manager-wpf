@@ -61,6 +61,15 @@ namespace bucket.manager.wpf {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string @__unused {
+            get {
+                return ResourceManager.GetString("__unused", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Authenticate.
         /// </summary>
         public static string btnAuthenticate {
@@ -156,6 +165,15 @@ namespace bucket.manager.wpf {
         public static string btnUploadFile {
             get {
                 return ResourceManager.GetString("btnUploadFile", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to APAC.
+        /// </summary>
+        public static string cbItemAPAC {
+            get {
+                return ResourceManager.GetString("cbItemAPAC", resourceCulture);
             }
         }
         
@@ -327,6 +345,15 @@ namespace bucket.manager.wpf {
         public static string lblCreateBucketName {
             get {
                 return ResourceManager.GetString("lblCreateBucketName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Application Credentials.
+        /// </summary>
+        public static string lblForgeCredential {
+            get {
+                return ResourceManager.GetString("lblForgeCredential", resourceCulture);
             }
         }
         

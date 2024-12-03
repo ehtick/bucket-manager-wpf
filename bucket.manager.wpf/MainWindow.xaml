@@ -19,7 +19,7 @@
             <RowDefinition Height="*"></RowDefinition>
             <RowDefinition Height="30"></RowDefinition>
         </Grid.RowDefinitions>
-        <GroupBox Header="{x:Static local:StringResources.lblAPSCredential}" Padding="2"  Grid.Row="0" >
+        <GroupBox Header="{x:Static local:StringResources.lblForgeCredential}" Padding="2"  Grid.Row="0" >
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="*"></RowDefinition>
@@ -70,6 +70,7 @@
                     <ComboBox Name="Region" VerticalAlignment="Center" SelectedIndex="0" IsEnabled="{Binding Path=UIEnabled}" SelectionChanged="Region_OnSelectionChanged">
                         <ComboBoxItem Content="{x:Static local:StringResources.cbItemUS}"></ComboBoxItem>
                         <ComboBoxItem Content="{x:Static local:StringResources.cbItemEMEA}"></ComboBoxItem>
+                        <ComboBoxItem Content="{x:Static local:StringResources.cbItemAPAC}"></ComboBoxItem>
                     </ComboBox>
                 </DockPanel>
                 <StackPanel Grid.Row="1" Orientation="Horizontal" VerticalAlignment="Center">
